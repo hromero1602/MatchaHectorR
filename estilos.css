@@ -1,0 +1,110 @@
+
+*html{
+  font-size: 48px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+h4{
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+p{
+  color: #8b8b8bcc;
+  margin-top: 15px;
+}
+
+.actions button{
+  background-color:#67b54b ;
+  color: white;
+ margin-left: 3px;
+ margin-right:3px;
+border: 0;
+border-radius: 5px;
+padding: 10px;
+font-size: 1.5em;
+}
+ 
+button{
+  background-color: #025157;
+  color: #fff;
+  border: 0;
+ border-radius: 5px;
+  padding: 6px 30px;
+  margin-left: -5px;
+  height: 13%;
+}
+
+.nav{
+
+  text-align: center;
+ list-style: none ;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  width: 70%;
+
+ 
+}
+ 
+
+.nav li{
+  color:#025157;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  margin: 25px;
+  
+}
+
+
+.logo{
+  height: 100%;
+  width: 15%;
+}
+
+
+.actions{
+  display: inline-block;
+ width: 15%;
+ color:#67b54b;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+
+}
+.header{
+  vertical-align: middle;
+}
+
+.promo{
+  display: flex;
+  align-items: center;
+width: 70%;
+margin: 100px auto;
+}
+.explanatory-video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explanatory-video img{
+  width: 120px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  }
